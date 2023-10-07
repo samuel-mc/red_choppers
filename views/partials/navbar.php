@@ -3,7 +3,7 @@
 
 <header class="d-none d-lg-block">
     <!-- Top section  -->
-    <div class="bg--black py-2">
+    <div class="bg--black py-2 px-2">
         <div class="mw--1440 d-flex justify-content-end">
             <a class="a--white" href="mailto:info@redchoppers.com">
                 <i class="fa-solid fa-envelope"></i>
@@ -31,7 +31,7 @@
         </div>
     </div>
     <!-- Bottom section  -->
-    <div class="mw--1440 d-flex justify-content-between align-items-center bg-white py-2">
+    <div class="mw--1440 d-flex justify-content-between align-items-center bg-white py-2 px-2">
         <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="mw--160">
         <nav>
             <ul class="d-flex text--sm w-100 list--unstyled">
