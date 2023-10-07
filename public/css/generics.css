@@ -296,6 +296,9 @@
     .p--container {
         padding: 24px;
     }
+    .text--xl{
+        font-size: var(--text-lg);
+    }
 }
 
 @media (max-width: 767px) {

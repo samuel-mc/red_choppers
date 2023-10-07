@@ -52,11 +52,65 @@ html {
     /* margin: 1px; */
 }
 
+.input {
+    background-color: var(--light-blue);
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--grey);
+    transition: all 0.6s ease-in-out;
+    margin: 12px 0;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnSlider {
+    background-color: var(--black-color) !important;
+    height: 80px !important;
+    width: 80px !important;
+    position: absolute; /* Establecer la posición absoluta para poder centrar verticalmente */
+    top: 50%; /* Desplazar el botón hacia la mitad de la altura del carrusel */
+    transform: translateY(-50%); /* Centrar verticalmente el botón */
+}
+    /* Hacer que la barra de desplazamiento esté siempre visible en el carrusel */
+.carousel-item {
+    overflow-x:auto !important;
+    scrollbar-width: thin; /* Establecer el ancho de la barra de desplazamiento en "thin" */
+    padding-bottom: 10px;
+}
+.carousel-item div{
+    justify-content: center;
+}
+
 @media (max-width: 990px) {
     .home__hero {
         height: auto;
         background-color: var(--white-color);
         background-image: none;
+    }
+
+    .carousel-item div{
+        justify-content: start !important;
+    }
+
+    /* Personalizar la apariencia de la barra de desplazamiento */
+    .carousel-item::-webkit-scrollbar {
+        width: 12px; /* Ancho de la barra de desplazamiento */
+        height: 12px; /* Altura de la barra de desplazamiento (vertical) */
+    }
+
+    .carousel-item::-webkit-scrollbar-thumb {
+        background: var(--black-color); /* Color del pulgar de la barra de desplazamiento */
+        border-radius: 6px; /* Radio de borde del pulgar */
+    }
+
+    .carousel-item::-webkit-scrollbar-track {
+        border-radius: 6px; /* Radio de borde del pulgar */
+        background: var(--grey); /* Color del track de la barra de desplazamiento */
     }
 }
 
