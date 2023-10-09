@@ -4,7 +4,7 @@
     <?php include 'components/qSomos.php'; ?>
     <?php include 'components/carrusel.php'; ?>
 
-    <section class="mw--1440 grid--2cols gap--24 my-4">
+    <section class="mw--1440 grid--2cols gap--24 p-2 p-lg-4">
         <div class="bg--black px-5 py-2 text--white text-center rounded">
             <img src="<?php echo __ROOT__; ?>/public/img/about/mision.png" class="w--64">
             <h2 class="my-3">Misión</h2>
@@ -39,7 +39,7 @@
                                 </div>
                             </div>
 
-                            <img src="<?php echo __ROOT__; ?>/public/img/about/comillas.png" class="w--64">
+                            <img src="<?php echo __ROOT__; ?>/public/img/about/comillas.png" class="w--64 d-none d-md-block">
                         </header>
                         <main class="py-4 border-top">
                             <p class="text--sm">
