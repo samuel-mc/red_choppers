@@ -36,7 +36,7 @@
         <nav>
             <ul class="d-flex text--sm w-100 list--unstyled">
                 <li class="mx-2"><a class="<?php echo $title == 'Inicio' ? 'a--black text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>">Inicio</a></li>
-                <li class="mx-2"><a class="<?php echo $title == 'Acerca' ? 'a--black text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>nosotros">Acerca</a></li>
+                <li class="mx-2"><a class="<?php echo $title == 'Acerca' ? 'a--black text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/about">Acerca</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Experiencias' ? 'a--black text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>servicios">Experiencias</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Servicios empresariales' ? 'a--black text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>#contacto">Servicios empresariales</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Helicopteros' ? 'a--black text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>#contacto">Helicopteros</a></li>

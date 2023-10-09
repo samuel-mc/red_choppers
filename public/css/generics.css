@@ -2,6 +2,7 @@
     --black-color: #2D3436;
     --red: #DB0505;
     --grey: #8E8E8E;
+    --light-grey: #F1F1F1;
     --white-color: #FFFFFF;
 
     --text-xs: 12px;
@@ -95,6 +96,14 @@
 
 .bg--black {
     background-color: var(--black-color);
+}
+
+.bg--grey {
+    background-color: var(--grey);
+}
+
+.bg--lightGrey {
+    background-color: var(--light-grey);
 }
 
 .btn {
