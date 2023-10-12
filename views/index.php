@@ -74,7 +74,7 @@
             <p class="text--grey my-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis lectus, condimentum dictum magna vitae, ultricies interdum sapien. Quisque vel quam a lorem congue dictum. Vivamus rhoncus sapien non commodo maximus. Aliquam ut feugiat nisi. Nulla ut risus ac diam cursus porta. Cras non arcu non massa interdum sollicitudin. Sed a placerat augue.
             </p>
-            <a href="<?php echo __ROOT__; ?>/ambulanciaAerea" class="btn btn--red py-3 px-5 w--fit h--fit text--bold">
+            <a href="<?php echo __ROOT__; ?>/ambulancia-aerea" class="btn btn--red py-3 px-5 w--fit h--fit text--bold">
                 Conocer servicio
             </a>
         </div>

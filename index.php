@@ -21,6 +21,14 @@ Flight::route('/experiencias', function () {
     Flight::render('experiencias.php', array('title' => 'Experiencias'));
 });
 
+Flight::route('/servicios-empresariales', function () {
+    Flight::render('serviciosEmpresariales.php', array('title' => 'Servicios empresariales'));
+});
+
+Flight::route('/ambulancia-aerea', function () {
+    Flight::render('ambulanciaAerea.php', array('title' => 'Ambulancia aérea'));
+});
+
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
