@@ -9,8 +9,8 @@
                     <li class="m-2"><a class="a--white" href="<?php echo __ROOT__; ?>">Inicio</a></li>
                     <li class="m-2"><a class="a--white" href="<?php echo __ROOT__; ?>nosotros">Acerca</a></li>
                     <li class="m-2"><a class="a--white" href="<?php echo __ROOT__; ?>servicios">Experiencias</a></li>
-                    <li class="m-2"><a class="a--white" href="<?php echo __ROOT__; ?>#contacto">Servicios empresariales</a></li>
-                    <li class="m-2"><a class="a--white" href="<?php echo __ROOT__; ?>#contacto">Helicopteros</a></li>
+                    <li class="m-2"><a class="a--white" href="<?php echo __ROOT__; ?>servicios-empresariales">Servicios empresariales</a></li>
+                    <li class="m-2"><a class="a--white" href="<?php echo __ROOT__; ?>helicopteros">Helicopteros</a></li>
                 </ul>
             </nav>
         </div>

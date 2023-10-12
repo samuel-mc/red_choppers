@@ -5,8 +5,8 @@ require 'flight/Flight.php';
 # Debug errors
 Flight::set('flight.log_errors', true);
 # Root route
-define('__ROOT__', "http://localhost/red_choppers");
-// define('__ROOT__', "http://localhost:5000/Trabajo/Freelancer/Samuel/red_choppers/");
+//define('__ROOT__', "http://localhost/red_choppers");
+ define('__ROOT__', "http://localhost:5000/Trabajo/Freelancer/Samuel/red_choppers/");
 
 
 Flight::route('/', function () {
@@ -23,6 +23,22 @@ Flight::route('/experiencias', function () {
 
 Flight::route('/servicios-empresariales', function () {
     Flight::render('serviciosEmpresariales.php', array('title' => 'Servicios empresariales'));
+});
+
+Flight::route('/helicopteros', function () {
+    Flight::render('helicopteros.php', array('title' => 'helicopteros'));
+});
+
+Flight::route('/helicopteros2', function () {
+    Flight::render('helicopteros2.php', array('title' => 'helicopteros2'));
+});
+
+Flight::route('/aviones', function () {
+    Flight::render('aviones.php', array('title' => 'aviones'));
+});
+
+Flight::route('/reserva', function () {
+    Flight::render('reserva.php', array('title' => 'reserva'));
 });
 
 Flight::route('/ambulancia-aerea', function () {

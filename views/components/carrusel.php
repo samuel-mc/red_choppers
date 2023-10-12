@@ -1,6 +1,6 @@
 <section class="mw--1440 px-2 px-lg-4 py-5">
     <div class="w--50 text-center my-5">
-        <h2 class="text--xl">Nuestros servicios <span class="text--red">empresariales</span></h2>
+        <h2 class="text--xl">Helicópteros <span class="text--red">disponibles</span></h2>
         <p>At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.</p>
     </div>
     <div id="miCarrusel" class="carousel slide " data-ride="carousel">
