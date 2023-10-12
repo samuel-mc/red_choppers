@@ -256,12 +256,6 @@
     border-right: 1px solid var(--dark-blue)
 }
 
-.btnSlider {
-    background-color: #DBDBDB !important;
-    height: 80px !important;
-    width: 80px !important;
-    top: 40% !important;
-}
 
 .border--light-grey {
     border: solid var(--light-grey);
